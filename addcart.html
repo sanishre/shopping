@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="secondDivId"></div>
+<div class="container-fluid">
+<div class="wish">
+  <p class="one"><span class="shop">Home </span>/ Wishlist</p>
+  <h1 class="play">Your Wishlist</h1>
+</div>
+<hr>
+
+<div class="alert alert-success">
+                Quantity was updated successfully!
+            </div>
+
+
+<table class="table">
+                <thead>
+                    <tr>
+                        <th class="table-image"></th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th class="column-spacer"></th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                      <tr>
+                         <td class="table-image"><a href="xbox.html"><img src="image/xbox-one.jpg" alt="product" class="img-responsive cart-image"></a></td>
+                        <td><a href="xbox.html"><b>Xbox One</b></a></td>
+                        <td>
+                            <select class="quantity" data-id="">
+                                <option selected>1</option>
+                                <option >2</option>
+                                <option >3</option>
+                                <option >4</option>
+                                <option >5</option>
+                            </select>
+                        </td>
+
+
+                        <td><b>$2299.99</b></td>
+                        <td class=""></td>
+                        <td>
+                        <div class="abc">
+                           <button type="button" class="btn btn-danger"><b>Remove</b></button>
+                          <button type="button" class="btn btn-success"><b>To Wishlist</b></button>
+                          </div>
+                        </td>
+                    </tr>
+                    
+                                        <tr>
+                        <td class="table-image"></td>
+                        <td></td>
+                        <td class="small-caps table-bg" style="text-align: right">Subtotal</td>
+                        <td>$449.99</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="table-image"></td>
+                        <td></td>
+                        <td class="small-caps table-bg" style="text-align: right">Tax</td>
+                        <td>$58.50</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr class="border-bottom">
+                        <td class="table-image"></td>
+                        <td style="padding: 40px;"></td>
+                        <td class="small-caps table-bg" style="text-align: right">Your Total</td>
+                        <td class="table-bg">$508.49</td>
+                        <td class="column-spacer"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+                        
+ <div class="spacer"></div>
+
+            <a href="home.html" class="btn btn-primary btn-lg">Continue Shopping</a> &nbsp;
+            <a href="home.html" class="btn btn-success btn-lg">Proceed to Checkout</a> &nbsp;
+
+            <div style="float:right">
+            <a href="cart.html" class="btn btn-danger btn-lg">Empty Cart</a>
+            </div></a>
+
+        
+        <div class="spacer"></div>
+
+    </div>    
+
+                            
+             
+<div class="secondOne"></div> 
+</body>
+</html>
+
+
+<script type="text/javascript">$(function ()
+{
+$(".secondDivId").load("nav.html");
+$(".secondOne").load("footer.html");
+});
+</script>
